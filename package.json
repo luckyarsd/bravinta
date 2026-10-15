@@ -1,0 +1,17 @@
+{
+  "name": "brivanta-energy",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "npx serve out",
+    "deploy": "next build && npx wrangler deploy"
+  },
+  "dependencies": {
+    "@fontsource-variable/inter": "5.2.8",
+    "next": "14.2.35",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  }
+}
